@@ -31,8 +31,7 @@ export PATH="$PATH:$TexLive"
 
 - LaTex入门教程：https://liam.page/2014/09/08/latex-introduction/
 - LaTex工作室：https://www.latexstudio.net/
-
-
+- B站入门：https://www.bilibili.com/video/BV177411t74g
 
 
 
@@ -41,5 +40,3 @@ export PATH="$PATH:$TexLive"
 ## 模板
 
 - lab
-
-- 
