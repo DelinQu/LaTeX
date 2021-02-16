@@ -1,11 +1,11 @@
 # LaTeX 快速入门  :star2:
 
-<img src="https://www.latex-project.org/img/latex-project-logo.svg" style="zoom:80%;" /> 
+<img src="https://www.latex-project.org/img/latex-project-logo.svg" width = 250 /> 
 
-- 参考自一份其实很短的 LaTeX 入门文档：https://liam.page/2014/09/08/latex-introduction/
-- 我的LaTeX仓库：https://github.com/LinXiaoDe/LaTeX
+- 参考自一份其实很短的 LaTeX 入门文档：[https://liam.page/2014/09/08/latex-introduction/](https://liam.page/2014/09/08/latex-introduction/)
+- 我的LaTeX仓库：[https://github.com/LinXiaoDe/LaTeX](https://github.com/LinXiaoDe/LaTeX)
 
-## Install<img src="https://i.loli.net/2021/02/14/uOl4JX8sBNw9a3V.png" alt="VS Code + LaTeX" style="zoom:15%;" /> 
+## Install<img src="https://i.loli.net/2021/02/14/uOl4JX8sBNw9a3V.png" alt="VS Code + LaTeX" width = 200 /> 
 
 - archLinux
 
@@ -179,7 +179,7 @@ Hello, world!
 
 ## 数学公式
 
-- 推荐一个在线公式编辑器： https://www.latexlive.com/
+- 推荐一个在线公式编辑器： [https://www.latexlive.com/](https://www.latexlive.com/)
 - 在VsCode的symbols中也有相应的符号
 
 ### (1) 基本方法：
@@ -494,7 +494,7 @@ Marry has a little matrix $ ( \begin{smallmatrix} a&b\\c&d \end{smallmatrix} ) $
 
 ### 表格
 
-- 一个在线表格网站：https://www.tablesgenerator.com/
+- 一个在线表格网站：[https://www.tablesgenerator.com/](https://www.tablesgenerator.com/)
 
 ```latex
 \begin{tabular}{|l|c|r|}
@@ -513,7 +513,7 @@ Mac OS & MacTeX & TeXShop \\
 \end{tabular}
 ```
 
-<img src="/home/qdl/.config/Typora/typora-user-images/image-20210215222331352.png" alt="image-20210215222331352" style="zoom:80%;" />
+<img src="https://i.loli.net/2021/02/16/MhtjDdkZyI6XzOU.png" alt="image-20210215222331352" style="zoom:80%;" />
 
 ### 浮动体
 
@@ -601,10 +601,10 @@ CTeX 宏集已经处理好了首行缩进的问题（自然段前空两格汉字
 
 ## 网站汇总
 
-- 入门教程：https://liam.page/2014/09/08/latex-introduction/
+- 入门教程：[https://liam.page/2014/09/08/latex-introduction/](https://liam.page/2014/09/08/latex-introduction/)
 
-- 截屏识别：https://mathpix.com/ 
-- 绘图识别：http://detexify.kirelabs.org/classify.html 
-- 在线LaTeX公式编辑器：https://www.latexlive.com/
-- 一个在线表格网站：https://www.tablesgenerator.com/
-- 我的LaTeX仓库：https://github.com/LinXiaoDe/LaTeX
+- 截屏识别：[https://mathpix.com/ ](https://mathpix.com/)
+- 绘图识别：[http://detexify.kirelabs.org/classify.html ](http://detexify.kirelabs.org/classify.html)
+- 在线LaTeX公式编辑器：[https://www.latexlive.com/](https://www.latexlive.com/)
+- 一个在线表格网站：[https://www.tablesgenerator.com/](https://www.tablesgenerator.com/)
+- 我的LaTeX仓库：[https://github.com/LinXiaoDe/LaTeX](https://github.com/LinXiaoDe/LaTeX)
