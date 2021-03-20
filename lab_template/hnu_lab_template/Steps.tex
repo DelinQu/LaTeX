@@ -1,0 +1,22 @@
+\section{Lab Steps 步骤}
+\subsection{实验要求}
+理解和掌握SQL DDL语句的语法，特别是各种参数的具体含义和使用方法；使用SQL语句创建、修改和删除数据库、模式和基本表。掌握SQL语句常见语法错误的调试方法。
+\subsection{Step1}
+创建数据库
+CRAETE DATABASE test;
+\subsection{Step2}
+删除数据库
+DROP DATABASE test;
+\subsection{Step3}
+SQL中创建模式的语句：CRAETE SCHEMA <模式名> AUTHORIZATION <用户名>；
+SQL中删除模式的语句：DROP SCHEMA <模式名><CASCADE|RESTRICT>
+但是MySQL中没有模式，因此无法创建。
+\subsection{Step4}
+创建表
+CREATE TABLE Student(Sno CHAR(9) PRIMARY KEY,Sname CHAR(20) UNIQUE,Ssex CHAR(2),Sage SMALLINT, Sdept CHAR(20));
+Create Table Course(Cno char(4) primary key,Cname Char(40) not null,Cpno char(4),Ccredit smallint,foreign key(Cpno) references Course(Cno));
+Create table SC(Sno char(9),Cno char(4),Grade Smallint,primary key(Sno,Cno),foreign key(Sno) references Student(Sno),foreign key (Cno) references Course(Cno));
+\subsection{Step5}
+删除表
+DROP table Student;
+
