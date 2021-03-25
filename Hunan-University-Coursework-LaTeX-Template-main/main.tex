@@ -1,0 +1,57 @@
+\documentclass{hnureport}
+\usepackage{xeCJK} %调用 xeCJK 宏包
+\setCJKmainfont{SimSun} %设置 CJK 主字体为 SimSun （宋体
+
+\renewcommand{\abstractname}{\large Abstract\\}%重定义摘要二字的大小
+\begin{document}
+\begin{titlepage}
+    \clearpage\thispagestyle{empty}
+    \centering
+    \vspace{1cm}
+    % Titles
+    {\
+        \textsc{Mao Zedong thought and the theoretical system of socialism with Chinese characteristics}
+    }
+    \vspace{2.5cm}
+    
+    \rule{\linewidth}{2mm} \\[0.5cm]
+    { \Huge \bfseries How To Treat The Trade Friction Between CHINA And USA\\[0.5cm]
+        如何看待中美贸易摩擦}\\[0.5cm]
+    \rule{\linewidth}{0.6mm} \\[1.5cm]
+    
+    \hspace{2cm}
+    \begin{tabular}{l p{5cm}}
+        \textbf{Title} & 如何看待中美贸易摩擦 \\[10pt]
+        \textbf{Member} & 梁帮博 \quad 屈德林 \quad 陶安源 \quad 王俊瑜 \quad 支伟 \\[10pt]
+        \textbf{Class} & 计算机科学与技术 1805 \\[10pt]
+        \textbf{Department} & CSEE \\[10pt]
+        \textbf{Date} & \today \\            
+    \end{tabular}
+    
+    % logo
+    \vfill
+    \centering \includegraphics[height=3.5cm]{Figure/HNUlogo.pdf}\\ % light logo
+    \centering \includegraphics[scale=0.3]{Figure/logo_slogan.png}
+    \vspace{0.5cm}
+
+    \pagebreak
+\end{titlepage}
+
+\input{abstract.tex}%摘要
+
+\thispagestyle{empty}
+\tableofcontents
+\newpage 
+\setcounter{page}{1}
+
+\input{experiment.tex}
+
+\input{conclusion.tex}
+
+\input{reference.tex}
+
+\appendix
+
+\input{appendix.tex}
+
+\end{document}
