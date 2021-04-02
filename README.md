@@ -597,6 +597,76 @@ CTeX 宏集已经处理好了首行缩进的问题（自然段前空两格汉字
 \addtolength{\parskip}{.4em}
 ```
 
+## 其他技巧
+
+- 去除section首行缩进
+
+```latex
+\noindent
+```
+
+- 无序列表
+
+```latex
+\begin{itemize}
+    \item 
+    \item
+\end{itemize}
+```
+
+- 有序列表
+
+```latex
+\begin{enumerate}
+    \item 
+    \item 
+\end{enumerate}
+```
+
+- 插入图像
+
+```latex
+\begin{figure}[htbp]	            % 浮动
+    \centering
+    \includegraphics[width=0.8\linewidth]{Figure/create.png}
+    \caption{name}
+    \label{fig:figure1latexintro}
+\end{figure}
+```
+
+- 插入子图
+
+```latex
+\begin{figure}[htbp]
+	\centering
+    \subfigure[name1]{
+        \label{fig:sub1}		
+		\includegraphics[width=0.48\textwidth]{Figure/create.png}
+    }
+    \subfigure[name2]
+	{
+		\label{fig:sub2}		
+		\includegraphics[width=0.48\textwidth]{Figure/add.png}
+	}
+    \caption{Name}
+    \label{fig:subfigure}
+\end{figure}
+```
+
+- 插入代码
+
+```latex
+\begin{lstlisting}[language=c]
+	code 
+\end{lstlisting}
+```
+
+- 从外部引入代码
+
+```
+-----
+```
+
 
 
 ## 网站汇总
